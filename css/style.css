@@ -1,12 +1,12 @@
-.parent-element {
-    width: 300px;
+/* .parent-element {
+    width: 450px;
     height: 300px;
-    /* border: 3px solid red; */
+    
     margin: auto;
     position: relative;
     background-color: green;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     
 }
 .parent-element .child {
@@ -20,10 +20,53 @@
     top: 0;
     right: 0;
     margin: auto;
-   
+} */
+/* .parent-element .lathi {
+    width: 5px;
+    height: 500px;
+    background-color :black;
+    position: absolute;
+    
 
+} */
+body {
+    background-color: black;
 }
-
-h1{
+h1 {
+    background: #f3f3f6;
+background: linear-gradient(to right, #05f609 0%, #30ebe8 60%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    margin: -8px 0;
+}
+pre{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.parent{
+    width: 500px;
+    height: auto;
+    border-bottom:3px dashed red ;
+    border-right: 3px dashed white;
+    border-top: 3px dashed cyan;
+    border-left: 3px dashed rgb(219, 234, 9);
+    padding: 20px 0;
     text-align: center;
+    display: inline-block;
+    margin: 20px 60px;
+    
+}
+.parent .flag1 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    margin: 0 auto;   
+}
+.parent .flag2 {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;   
 }
