@@ -41,6 +41,7 @@ pre{
     color: white;
     font-size: 16px;
     font-weight: 600;
+    text-transform: capitalize;
     
 }
 .parent{
